@@ -270,8 +270,6 @@
 						<!-- Formspree settings -->
 						<input type="hidden" name="_subject" value="Nuova RSVP - Camilla & Fabrizio">
 						<input type="hidden" name="_template" value="table">
-						<input type="hidden" name="_redirect" value="https://fabrizioecamilla.it/thanks.html">
-						<input type="hidden" name="_next" value="https://fabrizioecamilla.it/thanks.html">
 
 
 						<!-- Nome -->
@@ -505,26 +503,41 @@
 	<script src="js/scripts.js"></script>
 
 <script>
-  // Se Formspree risponde con successo, forza comunque la pagina thanks del sito
-  (function () {
-    const form = document.getElementById('formspree-rsvp');
-    if (!form) return;
+(function () {
+  const form = document.getElementById('formspree-rsvp');
+  if (!form) return;
 
-    form.addEventListener('submit', function () {
-      // fallback: se qualche JS ti porta su Formspree, dopo 1.2s torna alla thanks del sito
-      setTimeout(function () {
-        if (location.host.includes('formspree.io')) {
-          location.href = 'https://fabrizioecamilla.it/thanks.html';
-        }
-      }, 1200);
-    });
-  })();
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        window.location.href = 'https://fabrizioecamilla.it/thanks.html';
+      } else {
+        // fallback: se qualcosa va storto, mostra un messaggio
+        alert('Ops! Non riesco a inviare in questo momento. Riprova tra poco.');
+      }
+    } catch (err) {
+      alert('Errore di rete. Controlla la connessione e riprova.');
+    }
+  });
+})();
 </script>
+
 
 
 	
 </body>
 </html>
+
 
 
 
