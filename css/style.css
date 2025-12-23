@@ -2037,7 +2037,7 @@ p.center {
 /* #ABOUT US
 ================================================== */
 #about-us {
-  margin-top: -210px;
+  margin-top: 0px;
   background: linear-gradient(to bottom, #fff, #fff) no-repeat 0px 210px;
   position: relative;
 }
