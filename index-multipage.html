@@ -503,9 +503,29 @@
 	<!-- Template Scripts -->
 	<script src="js/variables.js"></script>
 	<script src="js/scripts.js"></script>
+
+<script>
+  // Se Formspree risponde con successo, forza comunque la pagina thanks del sito
+  (function () {
+    const form = document.getElementById('formspree-rsvp');
+    if (!form) return;
+
+    form.addEventListener('submit', function () {
+      // fallback: se qualche JS ti porta su Formspree, dopo 1.2s torna alla thanks del sito
+      setTimeout(function () {
+        if (location.host.includes('formspree.io')) {
+          location.href = 'https://fabrizioecamilla.it/thanks.html';
+        }
+      }, 1200);
+    });
+  })();
+</script>
+
+
 	
 </body>
 </html>
+
 
 
 
