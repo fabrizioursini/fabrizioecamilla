@@ -510,6 +510,13 @@
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
 
+    // 🔒 PREVIENE DOPPIO INVIO
+    const btn = form.querySelector('button[type="submit"]');
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = 'Invio in corso…';
+    }
+
     const data = new FormData(form);
 
     try {
@@ -522,11 +529,20 @@
       if (res.ok) {
         window.location.href = 'https://fabrizioecamilla.it/thanks.html';
       } else {
-        // fallback: se qualcosa va storto, mostra un messaggio
         alert('Ops! Non riesco a inviare in questo momento. Riprova tra poco.');
+        // 🔓 RIABILITA IL BOTTONE SE FALLISCE
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = 'Invia';
+        }
       }
     } catch (err) {
       alert('Errore di rete. Controlla la connessione e riprova.');
+      // 🔓 RIABILITA IL BOTTONE SE ERRORE
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = 'Invia';
+      }
     }
   });
 })();
@@ -534,9 +550,11 @@
 
 
 
+
 	
 </body>
 </html>
+
 
 
 
