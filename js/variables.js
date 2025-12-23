@@ -32,10 +32,10 @@ var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
 
 
 //COUNTDOWN VARIABLES
-var c_days = "DAYS";                            //Countdown "Days" label
-var c_hours = "HOURS";                          //Countdown "Hours" label
-var c_minutes = "MIN.";                         //Countdown "Minutes" label
-var c_seconds = "SEC.";                         //Countdown "Seconds" label
+var c_days = "GIORNI";                            //Countdown "Days" label
+var c_hours = "ORE";                          //Countdown "Hours" label
+var c_minutes = "MINUTI";                         //Countdown "Minutes" label
+var c_seconds = "SECONDI";                         //Countdown "Seconds" label
 var countdown_end_msg = "Event Started!";       //Message to display when the countdown reaches the end
 
 
@@ -91,4 +91,5 @@ var map_markers = [
         "icon": "fas fa-bell", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
         "infoWindow": "Birchwood Church <br> Seal Beach, CA 90740"
     }
+
 ];
