@@ -516,17 +516,26 @@
 <script>
 (function () {
   const form = document.getElementById('formspree-rsvp');
+  const loader = document.getElementById('form-loader');
   if (!form) return;
+
+  function showLoader() {
+    if (loader) loader.classList.add('is-active');
+  }
+
+  function hideLoader() {
+    if (loader) loader.classList.remove('is-active');
+  }
 
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    // 🔒 PREVIENE DOPPIO INVIO
+    // 🔒 blocca doppio invio
     const btn = form.querySelector('button[type="submit"]');
-    if (btn) {
-      btn.disabled = true;
-      btn.textContent = 'Invio in corso…';
-    }
+    if (btn) btn.disabled = true;
+
+    // 👀 mostra loader
+    showLoader();
 
     const data = new FormData(form);
 
@@ -540,24 +549,19 @@
       if (res.ok) {
         window.location.href = 'https://fabrizioecamilla.it/thanks.html';
       } else {
+        hideLoader();
         alert('Ops! Non riesco a inviare in questo momento. Riprova tra poco.');
-        // 🔓 RIABILITA IL BOTTONE SE FALLISCE
-        if (btn) {
-          btn.disabled = false;
-          btn.textContent = 'Invia';
-        }
+        if (btn) btn.disabled = false;
       }
     } catch (err) {
+      hideLoader();
       alert('Errore di rete. Controlla la connessione e riprova.');
-      // 🔓 RIABILITA IL BOTTONE SE ERRORE
-      if (btn) {
-        btn.disabled = false;
-        btn.textContent = 'Invia';
-      }
+      if (btn) btn.disabled = false;
     }
   });
 })();
 </script>
+
 
 
 
@@ -571,6 +575,7 @@
 	
 </body>
 </html>
+
 
 
 
