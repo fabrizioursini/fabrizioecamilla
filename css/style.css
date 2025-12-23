@@ -178,6 +178,53 @@ h5 {
 
 /* #General
 ================================================== */
+
+.form-loader{
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,.75);
+  z-index: 99999;
+}
+
+.form-loader.is-active{
+  display: flex;
+}
+
+.form-loader-box{
+  background: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+  text-align: center;
+}
+
+.form-loader-text{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.spinner{
+  width: 38px;
+  height: 38px;
+  border: 3px solid rgba(0,0,0,.12);
+  border-top-color: rgba(0,0,0,.55);
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin{
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+
+
 html {
   overflow: auto;
 }
