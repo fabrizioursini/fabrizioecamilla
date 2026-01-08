@@ -536,11 +536,9 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #3d5963;
+  background-color: rgba(0, 53, 122, 0.8); /* #00357a */
   z-index: -1;
-  -khtml-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .center {
