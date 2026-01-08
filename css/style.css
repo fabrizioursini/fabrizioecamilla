@@ -89,7 +89,7 @@
 }
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   #bridesmaids,
-#bmiadsgmen {
+  #bmiadsgmen {
     background-image: url("https://via.placeholder.com/1920x1080@2x.png");
   }
 }
@@ -489,7 +489,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #3d5963;
+  background-color: rgb(60.5456043956, 88.6247252747, 99.1543956044);
   z-index: -1;
   -khtml-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -913,7 +913,7 @@ p.center {
   height: 100%;
   width: 100%;
   display: block;
-  background-color: rgba(86, 125, 140, 0.7);
+  background-color: rgba(85.6813186813, 125.4175824176, 140.3186813187, 0.7);
   border: 10px solid transparent;
   z-index: 9;
   text-align: center;
@@ -1562,7 +1562,7 @@ p.center {
   transition: all 0.3s;
 }
 #nav-mobile-btn:active, #nav-mobile-btn:hover {
-  background-color: #5f8c9c;
+  background-color: rgb(95.3489010989, 139.5686813187, 156.1510989011);
 }
 
 .light #nav-mobile-btn {
@@ -1616,7 +1616,7 @@ p.center {
   border-radius: 4px;
 }
 .nav-mobile > i:hover, .nav-mobile > i:active {
-  color: #4e5153;
+  color: rgb(78.0357142857, 80.75, 83.4642857143);
   background-color: #f1f3f6;
 }
 .nav-mobile h2 {
@@ -1726,7 +1726,7 @@ p.center {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #3d5963;
+  background-color: #2494bc;
   z-index: 0;
   -khtml-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -1907,8 +1907,7 @@ p.center {
   -ms-transform: scale(1.2, 1.2);
   -o-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  filter: grayscale(1%);
-  /*Fix flickering on Firefox*/
+  filter: grayscale(1%); /*Fix flickering on Firefox*/
 }
 
 .zs-enabled .zs-slideshow .zs-slides .zs-slide.active {
@@ -3309,7 +3308,7 @@ p.center {
   border-color: #ffffff transparent transparent transparent;
   line-height: 0px;
   _border-color: #ffffff #000000 #000000 #000000;
-  _filter: progid:DXImageTransform.Microsoft.Chroma(color="#000000");
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -3327,7 +3326,7 @@ p.center {
   border-color: #8eaeba transparent transparent transparent;
   line-height: 0px;
   _border-color: #8eaeba #000000 #000000 #000000;
-  _filter: progid:DXImageTransform.Microsoft.Chroma(color="#000000");
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -3913,7 +3912,7 @@ section.side-flowers {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(86, 125, 140, 0.7);
+  background-color: rgba(85.6813186813, 125.4175824176, 140.3186813187, 0.7);
   z-index: 1;
   text-align: center;
   -khtml-opacity: 0;
@@ -3969,7 +3968,7 @@ section.side-flowers {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(86, 125, 140, 0.7);
+  background-color: rgba(85.6813186813, 125.4175824176, 140.3186813187, 0.7);
   z-index: 1;
   text-align: center;
   -khtml-opacity: 0;
@@ -4033,7 +4032,7 @@ section.side-flowers {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #3d5963;
+  background-color: rgb(60.5456043956, 88.6247252747, 99.1543956044);
   z-index: 0;
   -khtml-opacity: 0.75;
   -moz-opacity: 0.75;
@@ -4145,7 +4144,7 @@ section.side-flowers {
   height: 100%;
   width: 100%;
   display: block;
-  background-color: rgba(86, 125, 140, 0.8);
+  background-color: rgba(85.6813186813, 125.4175824176, 140.3186813187, 0.8);
   z-index: 9;
   text-align: center;
   visibility: hidden;
@@ -4835,7 +4834,7 @@ section.side-flowers {
   height: 100%;
   width: 100%;
   display: block;
-  background-color: rgba(86, 125, 140, 0.8);
+  background-color: rgba(85.6813186813, 125.4175824176, 140.3186813187, 0.8);
   z-index: 9;
   text-align: center;
   visibility: hidden;
@@ -5610,7 +5609,7 @@ textarea.form-control {
   color: #fff;
 }
 .lb-nav a.lb-prev::before {
-  content: "";
+  content: "\f053";
 }
 
 .lb-nav a.lb-prev:hover,
@@ -5625,7 +5624,7 @@ textarea.form-control {
   color: #fff;
 }
 .lb-nav a.lb-next::before {
-  content: "";
+  content: "\f054";
 }
 
 .lb-nav:hover a.lb-prev {
@@ -5706,7 +5705,7 @@ textarea.form-control {
   transition: all 0.3s;
 }
 .lb-data .lb-close::before {
-  content: "";
+  content: "\f00d";
 }
 .lb-data .lb-close:hover {
   cursor: pointer;
@@ -5726,7 +5725,6 @@ textarea.form-control {
   .invite .invite_info .date {
     font-size: 20pt;
   }
-
   .invite .invite_title {
     font-size: 70pt;
   }
@@ -5740,7 +5738,6 @@ textarea.form-control {
     margin-bottom: 18px;
     font-size: 26pt;
   }
-
   .side-flowers-light::before {
     left: -80px;
   }
@@ -5760,7 +5757,6 @@ textarea.form-control {
   .hero-title small {
     font-size: 28pt;
   }
-
   .hero-wrapper {
     margin-top: 100px;
   }
@@ -5773,36 +5769,29 @@ textarea.form-control {
   .hero-wrapper.v-center {
     margin-top: auto;
   }
-
   .countdown > div > div {
     font-size: 45pt;
   }
-
   .blog-bottom-info > ul {
     width: 100%;
     border-right: none;
   }
-
   .bmaid-gmen .image .hover-info h3,
-.bmaid-gmen-color .image .hover-info h3 {
+  .bmaid-gmen-color .image .hover-info h3 {
     font-size: 20pt;
   }
-
   .side-flowers-light::before {
     left: -145px;
   }
   .side-flowers-light::after {
     right: -145px;
   }
-
   .side-flowers::before {
     left: -430px;
   }
-
   .side-flowers::after {
     right: -430px;
   }
-
   .overflow-image {
     width: 46%;
   }
@@ -5811,19 +5800,15 @@ textarea.form-control {
   .navbar-nav {
     width: auto;
   }
-
   .nav.navbar-nav > li {
     display: none;
   }
-
   .navbar > a.btn {
     display: none;
   }
-
   #nav-mobile-btn {
     display: block;
   }
-
   .hero-wrapper {
     margin-top: 120px;
   }
@@ -5839,7 +5824,6 @@ textarea.form-control {
   .hero-wrapper.v-center {
     margin-top: auto;
   }
-
   .hero-title {
     font-size: 44pt;
     margin-bottom: 50px;
@@ -5855,18 +5839,15 @@ textarea.form-control {
   .hero-title small {
     font-size: 24pt;
   }
-
   .hero-wrapper .hero-subtitle {
     font-size: 16pt;
   }
   .hero-wrapper .hero-subtitle span {
     font-size: 36pt;
   }
-
   .countdown > div > div {
     font-size: 36pt;
   }
-
   .gallery-container .description-wrapper {
     grid-column: 2/24;
     grid-row: 2;
@@ -5882,7 +5863,6 @@ textarea.form-control {
     -o-transform: none;
     transform: none;
   }
-
   .invite .invite_title {
     font-size: 80pt;
   }
@@ -5909,7 +5889,6 @@ textarea.form-control {
   .invite .invite_info .date {
     font-size: 20pt;
   }
-
   .map-info-container .info-wrapper {
     grid-column: 5/-5;
     grid-row: 2;
@@ -5926,15 +5905,12 @@ textarea.form-control {
     -o-transform: none;
     transform: none;
   }
-
   h1.section-title {
     font-size: 36pt;
   }
-
   .padding-divider-top {
     padding-top: 100px;
   }
-
   .section-divider-top-1 {
     padding-top: 100px !important;
   }
@@ -5944,7 +5920,6 @@ textarea.form-control {
   .section-divider-top-1::before {
     border-width: 90px 100vw 0 0;
   }
-
   .section-divider-top-2 {
     padding-top: 100px !important;
   }
@@ -5954,7 +5929,6 @@ textarea.form-control {
   .section-divider-top-2::before {
     border-width: 0 0 90px 100vw;
   }
-
   .section-divider-bottom-1 {
     padding-bottom: 100px !important;
   }
@@ -5964,7 +5938,6 @@ textarea.form-control {
   .section-divider-bottom-1::after {
     border-width: 0 0 90px 100vw;
   }
-
   .section-divider-bottom-2 {
     padding-bottom: 100px !important;
   }
@@ -5974,14 +5947,12 @@ textarea.form-control {
   .section-divider-bottom-2::after {
     border-width: 90px 0 0 100vw;
   }
-
   .section-title-xl {
     font-size: 70pt;
   }
   .section-title-xl small {
     font-size: 40pt;
   }
-
   .wedding-gifts li > div > i {
     font-size: 35pt;
     top: 0px;
@@ -5993,7 +5964,6 @@ textarea.form-control {
     padding: 8px 20px 9px 21px;
     font-size: 0.9rem;
   }
-
   .gallery-scroller li {
     height: 250px;
     width: 250px;
@@ -6002,49 +5972,40 @@ textarea.form-control {
     height: 320px;
     width: 320px;
   }
-
   .blog-listing .item .info-blog .extra-padding {
     padding: 0;
   }
-
   .blog-listing .item .date,
-.blog-listing .post-content .date,
-.blog-main .item .date,
-.blog-main .post-content .date {
+  .blog-listing .post-content .date,
+  .blog-main .item .date,
+  .blog-main .post-content .date {
     font-size: 15pt;
     padding: 6px 20px;
   }
-
   .half-img {
     position: relative;
     height: 350px;
     width: 100%;
     background-attachment: fixed;
   }
-
   .overflow-image-text {
     width: 38%;
   }
-
   .overflow-image {
     width: 55%;
     top: -100px;
     bottom: -125px;
   }
-
   .side-flowers::before {
     left: -470px;
   }
-
   .side-flowers::after {
     right: -470px;
   }
-
   .form-wrapper.overflow {
     top: 50px;
     margin-bottom: -80px;
   }
-
   .footer-logo {
     font-size: 22pt;
     line-height: 0.85;
@@ -6072,7 +6033,6 @@ textarea.form-control {
   .element .image .hover-info h3 small {
     font-size: 13pt;
   }
-
   .timeline .template-1 .date {
     right: 14%;
   }
@@ -6083,11 +6043,9 @@ textarea.form-control {
     top: 60px;
     right: 10%;
   }
-
   .widget-about .image-container {
     margin: 0 100px;
   }
-
   .widget-newsletter.light {
     padding: 0;
   }
@@ -6107,11 +6065,9 @@ textarea.form-control {
   .hero-title small {
     font-size: 18pt;
   }
-
   .hero-subtitle {
     font-size: 13pt;
   }
-
   .hero-wrapper {
     position: relative;
   }
@@ -6140,20 +6096,16 @@ textarea.form-control {
   .hero-wrapper h1.hero-title:after {
     bottom: -22px;
   }
-
   #about-us {
     margin-top: 0;
     background: #fff;
   }
-
   .neela-quote {
     font-size: 18pt;
   }
-
   .element .highlight {
     color: #73777b;
   }
-
   .timeline .template-1 .date {
     top: 18px;
     right: 4%;
@@ -6186,14 +6138,12 @@ textarea.form-control {
     grid-row: 2;
     margin-top: -5%;
   }
-
   .timeline_footer .punchline {
     font-size: 44pt;
   }
   .timeline_footer .punchline small {
     font-size: 16pt;
   }
-
   .invite {
     flex-direction: column;
     margin: 25px 25px 60px;
@@ -6204,45 +6154,38 @@ textarea.form-control {
   .invite .invite_info {
     width: 100%;
   }
-
   .map-info-container .info-wrapper {
     grid-column: 3/-3;
     margin-top: 15%;
   }
-
   .bmaid-gmen .image .hover-info .content,
-.bmaid-gmen-color .image .hover-info .content {
+  .bmaid-gmen-color .image .hover-info .content {
     padding: 10px;
   }
   .bmaid-gmen .image .hover-info h3,
-.bmaid-gmen-color .image .hover-info h3 {
+  .bmaid-gmen-color .image .hover-info h3 {
     font-size: 18pt;
     margin-bottom: 5px;
   }
   .bmaid-gmen .image .hover-info h3 small,
-.bmaid-gmen-color .image .hover-info h3 small {
+  .bmaid-gmen-color .image .hover-info h3 small {
     font-size: 10pt;
   }
-
   .countdown > div > div {
     font-size: 30pt;
   }
-
   .countdown > div > span {
     font-size: 10pt;
   }
-
   .comments .comment-list > li .comment-content {
     display: block;
   }
   .comments .comment-list > li .comment-content .comment {
     width: 100%;
   }
-
   .comments .comment-list > li ul {
     margin-left: 55px;
   }
-
   .element-v2 {
     display: flex;
     flex-direction: column;
@@ -6260,7 +6203,6 @@ textarea.form-control {
     display: block;
     order: 2;
   }
-
   .wedding-details::after {
     content: "";
     right: 20%;
@@ -6268,11 +6210,9 @@ textarea.form-control {
     height: 1px;
     width: 60%;
   }
-
   .overflow-image-text {
     width: 100%;
   }
-
   .overflow-image {
     width: 100%;
     position: relative;
@@ -6281,24 +6221,20 @@ textarea.form-control {
     bottom: -120px;
     margin-top: -80px;
   }
-
   .side-flowers::before {
     left: -500px;
   }
-
   .side-flowers::after {
     right: -500px;
   }
-
   #footer-onepage .footer-widget-area {
     padding: 25px 0;
   }
   #footer-onepage .footer-widget-area .footer-info.left,
-#footer-onepage .footer-widget-area .footer-info.right {
+  #footer-onepage .footer-widget-area .footer-info.right {
     text-align: center;
     justify-content: center;
   }
-
   .footer-logo {
     margin: 15px 0;
   }
@@ -6307,7 +6243,6 @@ textarea.form-control {
   .padding-divider-top {
     padding-top: 70px;
   }
-
   .section-divider-top-1 {
     padding-top: 70px !important;
   }
@@ -6317,7 +6252,6 @@ textarea.form-control {
   .section-divider-top-1::before {
     border-width: 60px 100vw 0 0;
   }
-
   .section-divider-top-2 {
     padding-top: 70px !important;
   }
@@ -6327,7 +6261,6 @@ textarea.form-control {
   .section-divider-top-2::before {
     border-width: 0 0 60px 100vw;
   }
-
   .section-divider-bottom-1 {
     padding-bottom: 70px !important;
   }
@@ -6337,7 +6270,6 @@ textarea.form-control {
   .section-divider-bottom-1::after {
     border-width: 0 0 60px 100vw;
   }
-
   .section-divider-bottom-2 {
     padding-bottom: 70px !important;
   }
@@ -6347,36 +6279,31 @@ textarea.form-control {
   .section-divider-bottom-2::after {
     border-width: 60px 0 0 100vw;
   }
-
   .bmaid-gmen .image .hover-info .content,
-.bmaid-gmen-color .image .hover-info .content {
+  .bmaid-gmen-color .image .hover-info .content {
     padding: 30px;
   }
   .bmaid-gmen .image .hover-info h3,
-.bmaid-gmen-color .image .hover-info h3 {
+  .bmaid-gmen-color .image .hover-info h3 {
     font-size: 32pt;
     margin-bottom: 35px;
   }
   .bmaid-gmen .image .hover-info h3 small,
-.bmaid-gmen-color .image .hover-info h3 small {
+  .bmaid-gmen-color .image .hover-info h3 small {
     font-size: 12pt;
   }
-
   .side-flowers-light::before {
     left: -200px;
   }
   .side-flowers-light::after {
     right: -200px;
   }
-
   .side-flowers::before {
     left: -535px;
   }
-
   .side-flowers::after {
     right: -535px;
   }
-
   .gallery-scroller.thumbs-lg li {
     height: 250px;
     width: 250px;
@@ -6386,11 +6313,9 @@ textarea.form-control {
   .hero-wrapper::before {
     left: -100px;
   }
-
   .hero-wrapper::after {
     right: -100px;
   }
-
   .hero-title {
     font-size: 30pt;
     margin-bottom: 15px;
@@ -6406,46 +6331,37 @@ textarea.form-control {
   .hero-title small {
     font-size: 16pt;
   }
-
   .hero-text {
     font-size: 22pt;
   }
-
   .element .image .hover-info h3 {
     font-size: 24pt;
   }
-
   .map-info-container .info-wrapper {
     grid-column: 2/-2;
     margin-top: 15%;
   }
-
   .countdown > div {
     padding: 0 12px;
   }
   .countdown > div > div {
     font-size: 26pt;
   }
-
   h1.section-title {
     font-size: 28pt;
   }
-
   h1.page-title {
     font-size: 28pt;
   }
-
   .section-desc h1 {
     font-size: 30pt;
   }
-
   .section-title-lg {
     font-size: 50pt;
   }
   .section-title-lg small {
     font-size: 30pt;
   }
-
   .timeline .template-1 .date {
     top: -10px;
     padding: 20px 16px;
@@ -6462,21 +6378,18 @@ textarea.form-control {
     font-size: 12pt;
     padding: 6px 10px;
   }
-
   .timeline_footer .punchline {
     font-size: 34pt;
   }
   .timeline_footer .punchline small {
     font-size: 14pt;
   }
-
   .map-info-container .info-wrapper .location-info h4 {
     font-size: 18pt;
   }
   .map-info-container .info-wrapper .location-info h5 {
     font-size: 13pt;
   }
-
   .wedding-gifts li .neela-style {
     padding: 15px;
   }
@@ -6487,11 +6400,9 @@ textarea.form-control {
   .wedding-gifts li h3 {
     font-size: 14pt;
   }
-
   .form-wrapper {
     padding: 20px 25px;
   }
-
   .pagination {
     display: inline-block;
   }
@@ -6504,21 +6415,19 @@ textarea.form-control {
     float: none;
   }
   .pagination ul#previous,
-.pagination ul#next {
+  .pagination ul#next {
     order: 0;
   }
   .pagination ul#previous li,
-.pagination ul#next li {
+  .pagination ul#next li {
     float: none;
   }
-
   .form-wrap .btn[type=submit] {
     white-space: normal;
   }
   .form-wrap .btn[type=submit] .icon {
     display: none;
   }
-
   .submit_form .icon {
     display: none !important;
   }
@@ -6535,4 +6444,3 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
-	
