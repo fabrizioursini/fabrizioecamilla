@@ -421,7 +421,8 @@ section {
 }
 
 .section-bg-color {
-  background-color: #f9f9f9;
+    background-color: #83B0CF;
+  color: #fff;
 }
 
 .section-title {
@@ -503,9 +504,10 @@ section {
 }
 
 .bg-color {
-  background-color: #a9d8e8; /* equivalente visivo */
+  background-color: #83B0CF;
   color: #fff;
 }
+
 .bg-color a:not(.btn) {
   color: #fff;
   background: linear-gradient(#fff, #fff) no-repeat 0 100%;
