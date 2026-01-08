@@ -503,7 +503,7 @@ section {
 }
 
 .bg-color {
-  background-color: rgba(187, 229, 244, 0.7);
+  background-color: #a9d8e8; /* equivalente visivo */
   color: #fff;
 }
 .bg-color a:not(.btn) {
