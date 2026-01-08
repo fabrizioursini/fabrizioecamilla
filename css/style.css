@@ -489,7 +489,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgb(60.5456043956, 88.6247252747, 99.1543956044);
+  background-color: #2494bc;
   z-index: -1;
   -khtml-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -4032,7 +4032,7 @@ section.side-flowers {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgb(60.5456043956, 88.6247252747, 99.1543956044);
+  background-color: #2494bc;
   z-index: 0;
   -khtml-opacity: 0.75;
   -moz-opacity: 0.75;
