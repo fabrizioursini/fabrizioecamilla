@@ -424,6 +424,10 @@ section {
     background-color: #83B0CF;
   color: #fff;
 }
+#rsvp-2.section-bg-color {
+  background: #83B0CF;
+  color: #fff;
+}
 
 .section-title {
   float: none;
